@@ -10,7 +10,9 @@
         <module name="NestedIfDepth">
             <property name="max" value="1"/>
         </module>
-        <module name="NestedForDepth"/>
+        <module name="NestedForDepth">
+            <property name="max" value="0"/>
+        </module>
         <module name="Indentation"/>
         <module name="LeftCurly"/>
         <module name="CyclomaticComplexity">
